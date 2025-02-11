@@ -17,7 +17,7 @@ local options = {
         "markdown",
         -- "odin",
         "printf",
-        -- "python",
+        "python",
         "toml",
         "vim",
         "vimdoc",
