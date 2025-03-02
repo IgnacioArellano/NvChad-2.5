@@ -16,17 +16,18 @@ rm -rf ~/.local/state/nvim
 rm -rf ~/.local/share/nvim
 ```
 ## Install NvChad.
-Install required packages.
-```bash
-sudo pacman -S --needed neovim unzip luarocks xclip wl-clipboard
-```
+https://nvchad.com/docs/quickstart/install
+
+Install required node.js (above 14.0)
+https://nodejs.org/es/download
+
 Install NvChad config from https://nvchad.com/docs/quickstart/install
 ```bash
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 ```
 Or this already configured version
 ```bash
-git clone https://github.com/ProgrammingRainbow/NvChad-2.5 ~/.config/nvim && nvim
+git clone https://github.com/IgnacioArellano/NvChad-2.5 ~/.config/nvim && nvim
 ```
 You can safely remove the `.git` and image files.
 ```bash
