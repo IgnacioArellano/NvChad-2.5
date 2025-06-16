@@ -30,6 +30,7 @@ Install luarocks
 ```bash
 sudo apt install luarocks
 ```
+
 Set core.editor in your Git config:
 ```bash
 git config --global core.editor "vim"
