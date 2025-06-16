@@ -21,6 +21,16 @@ https://nvchad.com/docs/quickstart/install
 Install required node.js (above 14.0)
 https://nodejs.org/es/download
 
+Install virtual environment package (for Debian/Ubuntu)
+```bash
+sudo apt install python3.10-venv
+```
+
+Install luarocks
+```bash
+sudo apt install luarocks
+```
+
 Install NvChad config from https://nvchad.com/docs/quickstart/install
 ```bash
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
