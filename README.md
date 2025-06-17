@@ -16,7 +16,6 @@ rm -rf ~/.local/state/nvim
 rm -rf ~/.local/share/nvim
 ```
 ## Install NvChad.
-https://nvchad.com/docs/quickstart/install
 
 Install required node.js (above 14.0)
 https://nodejs.org/es/download
