@@ -1,7 +1,18 @@
 ![Screenshot](nvchad-neovim.png)
 https://www.youtube.com/watch?v=TNRFegMqbWA
 # Installing NvChad Version 2.5
+This is my personal config fork for nvim, basen on [nvchad](https://nvchad.com/docs/quickstart/install/) and the awesome configuration of [Programming Rainbow](https://www.youtube.com/@ProgrammingRainbow)
 ## Backup and remove old nvim config.
+
+Pre-requisites
+
+- [Neovim 0.11.](https://github.com/neovim/neovim/releases/tag/stable)
+- [Nerd Font as your terminal font.](https://www.nerdfonts.com/)
+Make sure the nerd font you set doesn't end with Mono to prevent small icons.
+Example : JetbrainsMono Nerd Font and not JetbrainsMono Nerd Font Mono
+- [Ripgrep](https://github.com/BurntSushi/ripgrep) is required for grep searching with Telescope
+
+
 Backup old nvim config.
 ```bash
 mv ~/.config/nvim ~/.config/nvim-old
@@ -28,6 +39,11 @@ sudo apt install python3.10-venv
 Install luarocks
 ```bash
 sudo apt install luarocks
+```
+
+Install ripgrep
+```bash
+sudo apt-get install ripgrep
 ```
 
 Set core.editor in your Git config:
